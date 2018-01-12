@@ -24,17 +24,17 @@ This project solves this issue by isolating an artist's live albums and sorting 
 *Note: This project relies on application credentials issued through Spotify that are stored in my_info.py, which is hidden from GitHub, so it will not run properly if forked or cloned from GitHub. Please see the sample_output folder for examples for each function.*
 #### Sample Output
 The output of several example configurations can be found in the sample_output folder, and are described below. *Note: The HTML pages are pretty barebones, as the focus of this project is not on the front-end.*
-* **grateful_dead.html**
+* **[grateful_dead.html](https://www.matt-levin.com/ConcertCrawler/sample_output/grateful_dead.html)**
   * Shows the usefulness of the tool, since they have 81 live albums (as identified by the regular expressions) on Spotify, spanning many years.
-* **jerry_garcia_band.html**
+* **[jerry_garcia_band.html](https://www.matt-levin.com/ConcertCrawler/sample_output/jerry_garcia_band.html)**
   * More varied dates are used in these album names, compared to the Grateful Dead albums which had a more uniform style.
-* **allman_brothers_-i.html**
+* **[allman_brothers_-i.html](https://www.matt-levin.com/ConcertCrawler/sample_output/allman_brothers_-i.html)**
   * Example of what can go wrong using the -i flag, the *Live at Ludlow Garage* album is sorted under 1990 (the album release date) not the show's date (1970) since there is no date in the album name and the -i flag was set to true so it was not skipped.
-* **find_artists_1_hop.txt**
+* **[find_artists_1_hop.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_1_hop.txt)**
   * The results of running explore with only 1 hop, starting at *The Allman Brohters* and not including any albums without full dates.
-* **find_artists_1_hop_-i.txt**
+* **[find_artists_1_hop_-i.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_1_hop_-i.txt)**
   * The same configuration as above except this time the -i flag is set, which shows that there are several artists who have live albums, that just don't have a full date in the album name and are thus unable to be sorted by show date.
-* **find_artists_10_hops.txt**
+* **[find_artists_10_hops.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_10_hops.txt)**
   * The output of explore using 10 hops starting at *Grateful Dead* which explored a grand total of 3849 artists, and displays those with the most live albums.  
 
 
