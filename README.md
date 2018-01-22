@@ -1,4 +1,5 @@
 # Concert Crawler - Live Show Finder for Spotify
+#### *Created by [Matt Levin](https://www.matt-levin.com/)*
 
 *Enjoy listening to live shows from your favorite artists on Spotify? Ever want to listen to a show from a specific year, but could only find the albums organized by release date?* 
 
@@ -45,4 +46,4 @@ The output of several example configurations can be found in the sample_output f
 
 
 
-*I have no affiliation with Spotify, I just wanted to explore the API and make an easy way to browse live shows by the date of the show itself. All data provided by [Spotify](https://www.spotify.com)'s web API.*
+*I have no affiliation with Spotify, I just wanted to explore the API and make an easy way to browse live shows by the date of the show itself. All data provided by [Spotify](https://www.spotify.com)'s Web API.*
