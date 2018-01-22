@@ -32,7 +32,7 @@ The output of several example configurations can be found in the sample_output f
 * **[allman_brothers_-i.html](https://www.matt-levin.com/ConcertCrawler/sample_output/allman_brothers_-i.html)**
   * Example of what can go wrong using the -i flag, the *Live at Ludlow Garage* album is sorted under 1990 (the album release date) not the show's date (1970) since there is no date in the album name and the -i flag was set to true so it was not skipped.
 * **[find_artists_1_hop.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_1_hop.txt)**
-  * The results of running explore with only 1 hop, starting at *The Allman Brohters* and not including any albums without full dates.
+  * The results of running explore with only 1 hop, starting at *The Allman Brothers* and not including any albums without full dates.
 * **[find_artists_1\_hop_-i.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_1_hop_-i.txt)**
   * The same configuration as above except this time the -i flag is set, which shows that there are several artists who have live albums, that just don't have a full date in the album name and are thus unable to be sorted by show date.
 * **[find_artists_10_hops.txt](https://www.matt-levin.com/ConcertCrawler/sample_output/find_artists_10_hops.txt)**
